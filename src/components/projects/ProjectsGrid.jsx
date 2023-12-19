@@ -8,10 +8,10 @@ const ProjectsGrid = () => {
   const {
     projects,
     searchProject,
-    setSearchProject,
+    // setSearchProject,
     searchProjectsByTitle,
     selectProject,
-    setSelectProject,
+    // setSelectProject,
     selectProjectsByCategory,
   } = useContext(ProjectsContext)
 
@@ -24,7 +24,7 @@ const ProjectsGrid = () => {
       </div>
 
       <div className="mt-10 sm:mt-16">
-        <h3
+        {/* <h3
           className="font-general-regular 
                         text-center text-secondary-dark
                         dark:text-ternary-light
@@ -34,7 +34,7 @@ const ProjectsGrid = () => {
                         "
         >
           Search projects by title or filter by category
-        </h3>
+        </h3> */}
         <div
           className="
                         flex
@@ -46,7 +46,7 @@ const ProjectsGrid = () => {
                         "
         >
           <div className="flex justify-between gap-2">
-            <span
+            {/* <span
               className="
                                 hidden
                                 sm:block
@@ -59,8 +59,8 @@ const ProjectsGrid = () => {
                                 "
             >
               <FiSearch className="text-ternary-dark dark:text-ternary-light w-5 h-5"></FiSearch>
-            </span>
-            <input
+            </span> */}
+            {/* <input
               onChange={(e) => {
                 setSearchProject(e.target.value)
               }}
@@ -86,10 +86,10 @@ const ProjectsGrid = () => {
               required=""
               placeholder="Search Projects"
               aria-label="Name"
-            />
+            /> */}
           </div>
 
-          <ProjectsFilter setSelectProject={setSelectProject} />
+          {/* <ProjectsFilter setSelectProject={setSelectProject} /> */}
         </div>
       </div>
 
@@ -121,6 +121,7 @@ const ProjectsGrid = () => {
                 key={project.id}
                 description={project.description}
                 skills={project.skills}
+                link={project.link}
               />
             ))}
       </div>

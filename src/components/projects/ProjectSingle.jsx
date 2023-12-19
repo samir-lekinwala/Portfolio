@@ -1,7 +1,14 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const ProjectSingle = ({ title, category, image, description, skills }) => {
+const ProjectSingle = ({
+  title,
+  category,
+  image,
+  description,
+  skills,
+  link,
+}) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -12,28 +19,42 @@ const ProjectSingle = ({ title, category, image, description, skills }) => {
         delay: 0.15,
       }}
     >
-      <Link to="/projects/single-project" aria-label="Single Project">
-        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
-          <div>
-            <img
-              src={image}
-              className="rounded-t-xl border-none"
-              alt="Single Project"
-            />
-          </div>
-          <div className="text-center px-4 py-6">
-            <p className="font-general-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
-              {title}
-            </p>
-            <span className="text-lg text-ternary-dark dark:text-ternary-light">
-              {category}
-            </span>
-          </div>
-          <p className="text-white">{description}</p>
-          <p className="text-white font-bold">Tools:</p>
-          <p className="text-white">{skills}</p>
+      {/* <Link to="/projects/single-project" aria-label="Single Project"> */}
+      <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
+        <div>
+          <img
+            src={image}
+            className="rounded-t-xl border-none"
+            alt="Single Project"
+          />
         </div>
-      </Link>
+        <div className="text-center px-4 py-6">
+          <p className="font-general-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
+            {title}
+          </p>
+          {/* <span className="text-lg text-ternary-dark dark:text-ternary-light">
+            {category}
+          </span> */}
+          <a href={link}>
+            <p className="text-sm text-ternary-dark dark:text-ternary-light">
+              Source Code
+            </p>
+          </a>
+        </div>
+        {description?.map((paragraph) => (
+          <>
+            <p className="text-primary-dark dark:text-primary-light">
+              {paragraph}
+            </p>
+            <br />
+          </>
+        ))}
+        <p className="text-primary-dark dark:text-primary-light font-bold">
+          Tools:
+        </p>
+        <p className="text-primary-dark dark:text-primary-light">{skills}</p>
+      </div>
+      {/* </Link> */}
     </motion.div>
   )
 }
