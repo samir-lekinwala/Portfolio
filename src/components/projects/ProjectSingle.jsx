@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const ProjectSingle = ({ title, category, image, key, projectId }) => {
+const ProjectSingle = ({ title, category, image, description, skills }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -12,10 +12,7 @@ const ProjectSingle = ({ title, category, image, key, projectId }) => {
         delay: 0.15,
       }}
     >
-      <Link
-        to={`/projects/single-project-${title}`}
-        aria-label="Single Project"
-      >
+      <Link to="/projects/single-project" aria-label="Single Project">
         <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
           <div>
             <img
@@ -32,6 +29,9 @@ const ProjectSingle = ({ title, category, image, key, projectId }) => {
               {category}
             </span>
           </div>
+          <p className="text-white">{description}</p>
+          <p className="text-white font-bold">Tools:</p>
+          <p className="text-white">{skills}</p>
         </div>
       </Link>
     </motion.div>

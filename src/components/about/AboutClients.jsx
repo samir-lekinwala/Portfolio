@@ -18,7 +18,6 @@ const AboutClients = () => {
               image={client.img}
               key={client.id}
             />
-            <span>{client.title}</span>
           </>
         ))}
       </div>
