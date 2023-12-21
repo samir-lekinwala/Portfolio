@@ -22,7 +22,7 @@ function App() {
           <AppHeader />
           <Suspense fallback={''}>
             <Routes>
-              <Route path="/portfolio" element={<Home />} />
+              <Route path="/Portfolio" element={<Home />} />
               <Route path="projects" element={<Projects />} />
               <Route
                 path="projects/single-project"
