@@ -13,7 +13,7 @@ const ProjectSingle = ({
   skills,
   link,
 }) => {
-  const [zoomed, setZoomed] = useState(false)
+  // const [zoomed, setZoomed] = useState(false)
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -31,10 +31,10 @@ const ProjectSingle = ({
             <img
               src={image}
               className="rounded-t-xl border-none"
-              zoomed={zoomed}
+              // zoomed={zoomed}
               alt="Single Project"
-              onClick={() => setZoomed(true)}
-              onRequestClose={() => setZoomed(false)}
+              // onClick={() => setZoomed(true)}
+              // onRequestClose={() => setZoomed(false)}
             ></img>
           </a>
         </div>
