@@ -122,6 +122,7 @@ const ProjectsGrid = () => {
                 description={project.description}
                 skills={project.skills}
                 link={project.link}
+                youtubeLink={project.youtubeLink}
               />
             ))}
       </div>

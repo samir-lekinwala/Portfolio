@@ -11,8 +11,35 @@ import hailImg from '../images/project-images/hail.png'
 import postgramImg from '../images/project-images/postgram-max.png'
 import rcmndrImg from '../images/project-images/rcmndr.png'
 import todosImg from '../images/project-images/todos.png'
+import salesLedgerImg from '../images/project-images/sales-ledger-small.png'
 
 export const projectsData = [
+  {
+    id: 7,
+    title: 'Sales Ledger',
+    category: 'UI/UX Design',
+    description: [
+      `A solo project that I had envisioned while I was at Dev Academy. This was a project that I wanted to work on after I had graduated so I continued to have a project to work on. I am currently still working on this project however now that it is in a state that I would consider past MVP (minimal viable product) I have decided to show the public.`,
+      `I worked on this project during my free time and had found myself changing the design and functionality as time went on to further develop my skills and also as I went on I realised the app needed more functionality to be useful.`,
+      `I like to keep track of my buying and selling and seeing how much profit I am currently on. This app helps me keep track of my inventory, the value of the inventory and where I had done the sales and dates. Specifically with TradeMe, it does not store data for very long so any user data like sold items or won items etc are not kept track of for more than a few months. It also does not have a way for me to check how much I have made in profit. Rather it only shows per sale. This along with using Facebook as my other primary source of trading I decided to make an app that encompasses what I had been doing with Excel spreadsheet which wasn’t very tidy looking. I wanted to make sure I could have a nice UI and UX so that it would not be cumbersome to use.`,
+      `I am looking into switching from React to React Native so that I can have the Sales Ledger on my mobile as I had already designed the Sales Ledger with mobile first in mind.
+    `,
+    ],
+    skills: `*React
+    *TypeScript
+    *JavaScript
+    *SQL Database(Knex)
+    *Express
+    *Superagent
+    *HTML
+    *Tailwind CSS
+    *Material Tailwind
+    *Toastify
+    `,
+    img: salesLedgerImg,
+    // link: 'https://github.com/samir-lekinwala/CineQueue',
+    youtubeLink: 'xGu3qIIDqaw',
+  },
   {
     id: 3,
     title: 'CineQueue',

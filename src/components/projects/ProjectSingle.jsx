@@ -12,7 +12,9 @@ const ProjectSingle = ({
   description,
   skills,
   link,
+  youtubeLink,
 }) => {
+  console.log(youtubeLink)
   // const [zoomed, setZoomed] = useState(false)
   return (
     <motion.div
@@ -26,17 +28,28 @@ const ProjectSingle = ({
     >
       {/* <Link to="/projects/single-project" aria-label="Single Project"> */}
       <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
-        <div>
-          <a href={image}>
-            <img
-              src={image}
-              className="rounded-t-xl border-none"
-              // zoomed={zoomed}
-              alt="Single Project"
-              // onClick={() => setZoomed(true)}
-              // onRequestClose={() => setZoomed(false)}
-            ></img>
-          </a>
+        <div className="flex flex-col">
+          {youtubeLink ? (
+            <iframe
+              className="rounded-t-xl w-full"
+              title={title}
+              height="650"
+              allowfullscreen="true"
+              frameborder="0"
+              src={`https://youtube.com/embed/${youtubeLink}?loop=1&playlist=xGu3qIIDqaw&controls=0`}
+            ></iframe>
+          ) : (
+            <a href={image}>
+              <img
+                src={image}
+                className="rounded-t-xl border-none"
+                // zoomed={zoomed}
+                alt="Single Project"
+                // onClick={() => setZoomed(true)}
+                // onRequestClose={() => setZoomed(false)}
+              ></img>
+            </a>
+          )}
         </div>
         <div className="text-center px-4 py-6">
           <p className="font-general-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
@@ -45,11 +58,13 @@ const ProjectSingle = ({
           {/* <span className="text-lg text-ternary-dark dark:text-ternary-light">
             {category}
           </span> */}
-          <a href={link}>
-            <p className="text-sm text-ternary-dark dark:text-ternary-light">
-              Source Code
-            </p>
-          </a>
+          {link ? (
+            <a href={link}>
+              <p className="text-sm text-ternary-dark dark:text-ternary-light">
+                Source Code
+              </p>
+            </a>
+          ) : null}
         </div>
         {description?.map((paragraph) => (
           <>
