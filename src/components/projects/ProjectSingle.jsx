@@ -1,8 +1,4 @@
 import { motion } from 'framer-motion'
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
-// import Image from 'react-image-enlarger'
-import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
 const ProjectSingle = ({
