@@ -38,7 +38,7 @@ export const projectsData = [
     `,
     img: salesLedgerImg,
     // link: 'https://github.com/samir-lekinwala/CineQueue',
-    youtubeLink: 'wzQSg5g7AVI',
+    youtubeLink: 'PfpudzcNp5M',
   },
   {
     id: 3,

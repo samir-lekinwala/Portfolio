@@ -32,7 +32,7 @@ const ProjectSingle = ({
               height="650"
               allowfullscreen="true"
               frameborder="0"
-              src={`https://youtube.com/embed/${youtubeLink}?loop=1&playlist=xGu3qIIDqaw&controls=0`}
+              src={`https://youtube.com/embed/${youtubeLink}?loop=1&playlist=${youtubeLink}&controls=0`}
             ></iframe>
           ) : (
             <a href={image}>
