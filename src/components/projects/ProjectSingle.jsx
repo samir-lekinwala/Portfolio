@@ -56,13 +56,13 @@ const ProjectSingle = ({
             {category}
           </span> */}
           {link ? (
-            <a href={link}>
+            <a href={link} target="_blank" rel="noreferrer">
               <p className="text-sm text-ternary-dark dark:text-ternary-light">
                 Source Code
               </p>
             </a>
           ) : websiteLink ? (
-            <a href={websiteLink}>
+            <a href={websiteLink} target="_blank" rel="noreferrer">
               <p className="text-sm text-ternary-dark dark:text-ternary-light">
                 Website Link
               </p>
