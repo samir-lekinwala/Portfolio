@@ -12,8 +12,31 @@ import postgramImg from '../images/project-images/postgram-max.png'
 import rcmndrImg from '../images/project-images/rcmndr.png'
 import todosImg from '../images/project-images/todos.png'
 import salesLedgerImg from '../images/project-images/sales-ledger-small.png'
+import charmWebsiteImg from '../images/project-images/charm-website-screenshot.jpg'
 
 export const projectsData = [
+  {
+    id: 8,
+    title: 'Charm Beauty Parlour',
+    category: 'UI/UX Design',
+    description: [
+      `Charm Beauty Parlour is a website that I created for my mums business so that she could showcase her business, her skills and her legacy.`,
+      `This website is built using React and Tailwind CSS. This is something I surprised my mum with, she didn’t know I had been working on creating a way for her to display her business and a bit about how the business has come to fruition. I’ve currently hosted the project using Netlify and I will be working on getting a custom domain however for the meantime I can at least showcase to you all the fruits of my labour.`,
+      `It is a fairly simple website in the grand scheme of things – it has the main page, price list, and about page but each component of the website has been made with the utmost care.`,
+      `The website is fully responsive – I built this with mobile first in mind as most of the target audience is likely using their smartphones to access the site.`,
+      'Working on this project has helped me learn more about Tailwind CSS and I hope to continue to improve my knowledge in this field too. As with most people, Tailwind CSS is something that people may start off on a rocky foot with, it might seem a bit cumbersome to use but overtime it grows on you. I currently very much enjoy using Tailwind CSS.',
+      'I’d like to continue developing websites to improve my skills and have more projects under my belt to showcase. Being able to showcase these projects here and in my portfolio helps me see the progress I have been making throughout my time of being a developer. I can see myself and how far I have come and I am looking forward to where I can go from here.',
+    ],
+    skills: `*React
+    *TypeScript
+    *JavaScript
+    *HTML
+    *Tailwind CSS
+    *Material Tailwind
+    `,
+    img: charmWebsiteImg,
+    websiteLink: 'https://charmbeautyparlour.netlify.app/',
+  },
   {
     id: 7,
     title: 'Sales Ledger',
