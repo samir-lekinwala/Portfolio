@@ -9,6 +9,7 @@ const ProjectSingle = ({
   skills,
   link,
   youtubeLink,
+  websiteLink,
 }) => {
   console.log(youtubeLink)
   // const [zoomed, setZoomed] = useState(false)
@@ -58,6 +59,12 @@ const ProjectSingle = ({
             <a href={link}>
               <p className="text-sm text-ternary-dark dark:text-ternary-light">
                 Source Code
+              </p>
+            </a>
+          ) : websiteLink ? (
+            <a href={websiteLink}>
+              <p className="text-sm text-ternary-dark dark:text-ternary-light">
+                Website Link
               </p>
             </a>
           ) : null}
