@@ -14,17 +14,37 @@ import todosImg from '../images/project-images/todos.png'
 import salesLedgerImg from '../images/project-images/sales-ledger-small.png'
 import charmWebsiteImg from '../images/project-images/charm-website-screenshot.jpg'
 import templateBarberImg from '../images/project-images/templatebarber-mobile.png'
+import charmNextJSImg from '../images/project-images/charm-nextjs.png'
 
 export const projectsData = [
+  {
+    id: 10,
+    title: 'Charm Beauty Parlour NextJS',
+    category: 'UI/UX Design',
+    description: [
+      `I decided to experiment and try out NextJS. Utilising it’s routing capabilities and optimizations in SEO(Search engine optimization) I decided to take the plunge and also recreate the previous Charm Beauty Parlour website and also implement a new design for the hero.`,
+      'The plan was to recreate the hero and adding services, making it more simple and more optimized as the last one was a slider and was making the website noticeably lag on Firefox on my mobile. I had a look into this and found that it’s better to have a static and minimal hero. They perform better and visibly look more appealing. Same goes with services on the page. Adding in 3 points just below the hero so customers can immediately see what to expect from the shop. I also spent a big proportion of time looking and researching about SEO to get this website performing as well as it could.',
+      'This project was also a means for me to then go about buying, registering and then hosting a website with the domain name. I have learnt a lot from this project and I can see this information sticking with me to help me for future projects.',
+    ],
+    skills: `*React
+    *NextJS
+    *TypeScript
+    *JavaScript
+    *HTML
+    *Tailwind CSS
+    *Material Tailwind
+    `,
+    img: charmNextJSImg,
+    websiteLink: 'https://charmbeautyparlour.co.nz',
+  },
   {
     id: 9,
     title: 'Template Barbers',
     category: 'UI/UX Design',
     description: [
-      `Template is a project I created based on wanting to create a website for barbers which could use this as a template for their own businesses. I wanted to use this to showcase where my skills are currently too. I started off designing the website in Figma and then when I was happy with how it looked, I started working on different components of the website and putting them together. I have currently only somewhat finished the main page albeit with some components I’d like to have in there missing, like a reviews section.`,
+      `Template is a project I created based on wanting to create a website for barbers which could use this as a template for their own businesses. I wanted to use this to showcase where my skills are currently too. I started off designing the website in Figma and then when I was happy with how it looked, I started working on different components of the website and putting them together.`,
       'Template is fully responsive so please do check the link and see how it plays on different screen sizes. I put in a lot of effort to make the team members flow nicely on different screen sizes.',
       'This website surprisingly didn’t take me too long to create. This is a product that I am quite happy with. It shows my skills as a developer are indeed getting stronger. I’m sticking to using React with Tailwind CSS for the most part and even making components on my own, e.g the slideshow on mobile screens was made completely from scratch. However, I’m not currently happy with how the slideshow is, I would like for there to be a smooth animation in between the change of team members. Having that would make the website look a bit smoother.',
-      'I am currently still working on the website since the other pages are yet to be completed so the design is not exactly finalised.',
     ],
     skills: `*React
     *TypeScript
@@ -32,6 +52,8 @@ export const projectsData = [
     *HTML
     *Tailwind CSS
     *Material Tailwind
+    *Framer-Motion
+    *EmailJS
     `,
     img: templateBarberImg,
     websiteLink: 'https://templatebarber.netlify.app/',
