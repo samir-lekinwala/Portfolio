@@ -15,8 +15,29 @@ import salesLedgerImg from '../images/project-images/sales-ledger-small.png'
 import charmWebsiteImg from '../images/project-images/charm-website-screenshot.jpg'
 import templateBarberImg from '../images/project-images/templatebarber-mobile.png'
 import charmNextJSImg from '../images/project-images/charm-nextjs.png'
+import sanskritiImg from '../images/project-images/sanskriti-wordpress.png'
 
 export const projectsData = [
+  {
+    id: 11,
+    title: 'Sanskriti School Of Passion',
+    category: 'UI/UX Design',
+    description: [
+      'Sanskriti School Of Passion is a site which I had made for a client using WordPress. This was my first time using WordPress so it took me getting some used to but in the end I believe I was able to make a website that was modern, user friendly and most importantly one that the client and I were both happy with.',
+
+      'The site consists of 15 pages so it is the largest site I have made to date. Because of the size of the website I was able to learn a whole lot from my experiences. A lot of troubleshooting and figuring out the ins and outs of WordPress. It was a good experience to say the least.',
+
+      'This was also the first time I was dealing with CMS(content management system). The client required parts of their website to be manageable by them. When I first started the project I was looking at creating something React based with NextJS and using WordPress as a headless CMS however I opted to make the website in full WordPress so I could get some more learning as there are a plethora of websites that are based off of WordPress.',
+
+      'I went into this project thinking there would be no aspect from my previous knowledgebase that would come in handy however, as it turns out knowing HTML and CSS made the project go a lot smoother when it came to styling and any finer adjustments that were required.',
+    ],
+    skills: `*WordPress
+    *HTML
+    *CSS
+    `,
+    img: sanskritiImg,
+    websiteLink: 'https://sanskriti.ac.nz',
+  },
   {
     id: 10,
     title: 'Charm Beauty Parlour NextJS',
