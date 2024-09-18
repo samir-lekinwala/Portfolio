@@ -16,8 +16,32 @@ import charmWebsiteImg from '../images/project-images/charm-website-screenshot.j
 import templateBarberImg from '../images/project-images/templatebarber-mobile.png'
 import charmNextJSImg from '../images/project-images/charm-nextjs.png'
 import sanskritiImg from '../images/project-images/sanskriti-wordpress.png'
+import chatAppImg from '../images/project-images/chatapp-image.png'
 
 export const projectsData = [
+  {
+    id: 12,
+    title: 'ChatApp',
+    category: 'UI/UX Design',
+    description: [
+      'Following the website I had created using Wordpress I wanted to go back to coding projects which is where I found myself starting off with researching and understanding how to use Firebase and Firestore to create a realtime database. I didn’t want to make a big project just yet but wanted to figure out the ins and outs of Firebase/Firestore.',
+
+      'I used the knowledge I had learned from my research to then create a chat app which utilizes Firebase for authorization using Google pop up sign in services. And the backend with Firestore for the database.',
+
+      'This is a simple app and it works simply as it should. It is more of a chat room as opposed to a one-on-one chat. Anyone can sign in with their Google account and write messages in the chat.',
+
+      'The app is currently live and hosted on Netlify, you can see the example conversation being had in the chat and are able to enter your own messages if you wanted.',
+    ],
+    skills: `*React
+    *NextJS
+    *Tailwind CSS
+    *JavaScript
+    *HTML
+    *Firebase/Firestore
+    `,
+    img: chatAppImg,
+    websiteLink: 'https://chatapp2024.netlify.app/',
+  },
   {
     id: 11,
     title: 'Sanskriti School Of Passion',
