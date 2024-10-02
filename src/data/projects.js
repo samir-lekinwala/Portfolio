@@ -17,8 +17,28 @@ import templateBarberImg from '../images/project-images/templatebarber-mobile.pn
 import charmNextJSImg from '../images/project-images/charm-nextjs.png'
 import sanskritiImg from '../images/project-images/sanskriti-wordpress.png'
 import chatAppImg from '../images/project-images/chatapp-image.png'
+import cinequeueNextjsImg from '../images/project-images/cinequeue-nextjs-image.png'
 
 export const projectsData = [
+  {
+    id: 13,
+    title: 'CineQueue NextJS',
+    category: 'UI/UX Design',
+    description: [
+      'Cinequeue NextJS is a recreation of a previous project that was made as a group using React and Tailwind with a knex sql database. I wanted to recreate the project so that I can showcase my current skills and be able to host the project with a working database and authentication with firebase so that anyone can sign up and start using it. The original project was hosted for a short amount of time and also the hosting of the database was causing some issues so I wanted to change providers.',
+      'I’m still currently working on this project and it’s in the basics stage; it provides you with runtime per movie when you go into the details page with an actors list and the ability to add the movie to your watchlist and seen list (page for this is yet to be implemented). The watchlist page provides you with a total runtime in the watchlist which can help users see how much time they need to get through all their content.',
+      'The aim of the web app is to provide users with a site that they can track their total runtime watched for movies/shows and how long a movie/show is whilst also providing discovery of new content using different parameters with a smooth experience with the UI/UX.',
+    ],
+    skills: `*React
+    *NextJS
+    *Tailwind CSS
+    *JavaScript
+    *HTML
+    *Firebase/Firestore
+    `,
+    img: cinequeueNextjsImg,
+    websiteLink: 'https://cinequeue-nextjs.netlify.app/',
+  },
   {
     id: 12,
     title: 'ChatApp',
