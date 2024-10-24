@@ -17,7 +17,7 @@ import templateBarberImg from '../images/project-images/templatebarber-mobile.pn
 import charmNextJSImg from '../images/project-images/charm-nextjs.png'
 import sanskritiImg from '../images/project-images/sanskriti-wordpress.png'
 import chatAppImg from '../images/project-images/chatapp-image.png'
-import cinequeueNextjsImg from '../images/project-images/cinequeue-nextjs-image.png'
+import cinequeueNextjsImg from '../images/project-images/cinequeue-nextjs-image.jpg'
 
 export const projectsData = [
   {
