@@ -18,8 +18,28 @@ import charmNextJSImg from '../images/project-images/charm-nextjs.png'
 import sanskritiImg from '../images/project-images/sanskriti-wordpress.png'
 import chatAppImg from '../images/project-images/chatapp-image.png'
 import cinequeueNextjsImg from '../images/project-images/cinequeue-nextjs-image.jpg'
+import cinequeueNative from '../images/project-images/cinequeue-native.gif'
 
 export const projectsData = [
+  {
+    id: 14,
+    title: 'CineQueue React Native',
+    category: 'UI/UX Design',
+    description: [
+      'I’ve been wanting to create a project or recreate a project using React Native and CineQueue was the project I chose to create in React Native. I was trying to integrate Sonarr and Radarr into the React based app however due to limitations of the browser and accessing local networks I decided to pause the React development and switched to learning how to use React Native so I could implement Sonarr and Radarr effectively.',
+
+      'The app is in it’s early stages however it has similar functionality to the React Next JS app I have made previously. It utilises React Native Expo and I plan to save data of watch list, seen list and sonar/radar connections settings locally for added security.',
+      'The app is in continuous development but I wanted to showcase the project I am currently working on. The focus of this app is for me to learn React Native and build an app that integrates Sonarr and Radarr functionality for users that have those servers set up and for those that don’t, being able to view, and see watchtime stats and find new movies and tv shows.',
+    ],
+    skills: `*React Native Expo
+    *TypeScript
+    *JavaScript
+
+
+    `,
+    img: cinequeueNative,
+    // websiteLink: 'https://cinequeue-nextjs.netlify.app/',
+  },
   {
     id: 13,
     title: 'CineQueue NextJS',
