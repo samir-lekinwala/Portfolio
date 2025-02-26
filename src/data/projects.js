@@ -26,10 +26,11 @@ export const projectsData = [
     title: 'CineQueue React Native',
     category: 'UI/UX Design',
     description: [
-      'I’ve been wanting to create a project or recreate a project using React Native and CineQueue was the project I chose to create in React Native. I was trying to integrate Sonarr and Radarr into the React based app however due to limitations of the browser and accessing local networks I decided to pause the React development and switched to learning how to use React Native so I could implement Sonarr and Radarr effectively.',
+      'I’ve been wanting to create a project or recreate a project using React Native. I was trying to integrate Sonarr and Radarr into the React based app however due to limitations of the browser and accessing local networks I decided to pause the React development and switched to learning how to use React Native so I could implement Sonarr and Radarr effectively.',
 
-      'The app is in it’s early stages however it has similar functionality to the React Next JS app I have made previously. It utilises React Native Expo and I plan to save data of watch list, seen list and sonar/radar connections settings locally for added security.',
-      'The app is in continuous development but I wanted to showcase the project I am currently working on. The focus of this app is for me to learn React Native and build an app that integrates Sonarr and Radarr functionality for users that have those servers set up and for those that don’t, being able to view, and see watchtime stats and find new movies and tv shows.',
+      'Throughout the development of this project, the trajectory it has held has changed over the course of time. Initially it was developed to find and view TV show runtimes and Movie runtimes whilst being able to track how long all the content in your ‘Watchlist’ or ‘Seen List’ would take to watch. Although this feature is also one of the points of focus in the project, I moved towards being able to integrate Sonarr and Radarr functionality into this project as I heavily use these servers to manage content in my own personal life. I’m now able to find new shows and movies to add to my Sonarr and Radarr instances respectively and have a place to track what has been downloaded recently too.',
+      'This project is a way for me to develop more in depth skills as a developer whilst utilising various technologies. I want to make a nice and seamless experience for users, including myself and learn from the whole process.',
+      'There are more features I’d like to implement and UI changes and fixes that need to happen all which help me grow and advance my skills and I hope to be able to one day publish this app when It’s more polished into the mobile app stores.',
     ],
     skills: `*React Native Expo
     *TypeScript
@@ -37,7 +38,8 @@ export const projectsData = [
 
 
     `,
-    img: cinequeueNative,
+    // img: cinequeueNative,
+    youtubeLink: '-WmEq9vADhk',
     // websiteLink: 'https://cinequeue-nextjs.netlify.app/',
   },
   {
