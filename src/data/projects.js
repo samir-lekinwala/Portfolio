@@ -18,7 +18,7 @@ import charmNextJSImg from '../images/project-images/charm-nextjs.png'
 import sanskritiImg from '../images/project-images/sanskriti-wordpress.png'
 import chatAppImg from '../images/project-images/chatapp-image.png'
 import cinequeueNextjsImg from '../images/project-images/cinequeue-nextjs-image.jpg'
-import cinequeueNative from '../images/project-images/cinequeue-native.gif'
+// import cinequeueNative from '../images/project-images/cinequeue-native.gif'
 
 export const projectsData = [
   {
@@ -28,7 +28,7 @@ export const projectsData = [
     description: [
       'I’ve been wanting to create a project or recreate a project using React Native. I was trying to integrate Sonarr and Radarr into the React based app however due to limitations of the browser and accessing local networks I decided to pause the React development and switched to learning how to use React Native so I could implement Sonarr and Radarr effectively.',
 
-      'Throughout the development of this project, the trajectory it has held has changed over the course of time. Initially it was developed to find and view TV show runtimes and Movie runtimes whilst being able to track how long all the content in your ‘Watchlist’ or ‘Seen List’ would take to watch. Although this feature is also one of the points of focus in the project, I moved towards being able to integrate Sonarr and Radarr functionality into this project as I heavily use these servers to manage content in my own personal life. I’m now able to find new shows and movies to add to my Sonarr and Radarr instances respectively and have a place to track what has been downloaded recently too.',
+      'Throughout the development of this project, the trajectory it has held has changed over the course of time. Initially it was developed to find and view TV show runtimes and Movie runtimes whilst being able to track how long all the content in your ‘Watchlist’ or ‘Seen List’ would take to watch. Although this feature is also one of the points of focus in the project, I moved towards being able to integrate Sonarr and Radarr functionality into this project as I heavily use these servers to manage content in my own personal life. I’m now able to see who is watching content on my Plex server using Tautulli API, find new shows and movies to add to my Sonarr and Radarr instances respectively and have a place to track what has been downloaded recently too.',
       'This project is a way for me to develop more in depth skills as a developer whilst utilising various technologies. I want to make a nice and seamless experience for users, including myself and learn from the whole process.',
       'There are more features I’d like to implement and UI changes and fixes that need to happen all which help me grow and advance my skills and I hope to be able to one day publish this app when It’s more polished into the mobile app stores.',
     ],
@@ -39,7 +39,7 @@ export const projectsData = [
 
     `,
     // img: cinequeueNative,
-    youtubeLink: '-WmEq9vADhk',
+    youtubeLink: '3P1z3fMyTDI',
     // websiteLink: 'https://cinequeue-nextjs.netlify.app/',
   },
   {
