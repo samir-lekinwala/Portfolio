@@ -22,6 +22,27 @@ import cinequeueNextjsImg from '../images/project-images/cinequeue-nextjs-image.
 
 export const projectsData = [
   {
+    id: 15,
+    title: 'Plate it Pal',
+    category: 'UI/UX Design',
+    description: [
+      'Plate it Pal is a lightweight smart kitchen app designed for users to input ingredients that they have laying around their kitchen and turn them into dishes. Utlising the power of AI, recipes are generated based on selected/inputted ingredients.',
+
+      'This idea actually came from a casual stroll through Sylvia Park with a friend last week. He mentioned how helpful it would be to have an app that could suggest recipes based on ingredients he had left over utilising AI. I knew at that point I wanted to try building myself. While there are definitely other apps in this space, I wanted to create my own version as a fun challenge.',
+
+      'Before starting any of the coding on the app I used Figma to create a wireframe of what I wanted the app to look like. This gave me a clearer view of what I would need in terms of functionality to make MVP too. Once the initial wireframe was made I went into the coding and was able to churn out the functional MVP app over the course of a long weekend. It was a fun project for me and I look forward to where this app may go or if I develop it further. I’ll try to get this app on the play store as my next challenge after some fixes.',
+    ],
+    skills: `*React Native Expo
+    *TypeScript
+    *JavaScript
+    *Gemini 2.5 API
+
+
+    `,
+
+    youtubeLink: 'R7dDPfamht0',
+  },
+  {
     id: 14,
     title: 'CineQueue React Native',
     category: 'UI/UX Design',
